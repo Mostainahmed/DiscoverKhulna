@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logolay"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="16dp"
+            android:text="@string/title_bangla_name"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:ignore="SpUsage" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginBottom="16dp"
+        android:id="@+id/logolay"
+        android:layout_above="@+id/language_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:src="@drawable/bangladesh_govt_logo"
+            android:id="@+id/first_logo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center|center_vertical"/>
+        <ImageView
+            android:src="@drawable/dcoffice"
+            android:layout_toRightOf="@+id/first_logo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center|center_vertical"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/language_layout"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="জেলা প্রশাসনের প্রয়াস, পর্যটন শিল্পের বিকাশ"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+    <Button
+        android:layout_below="@+id/language_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:id="@+id/bangla"
+        android:text="বাংলা"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshapetwo"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart = "16dp"
+        android:layout_marginEnd = "16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/bangla"
+        android:id="@+id/english"
+        android:text="English"
+        android:textSize="30sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"/>
+</RelativeLayout>

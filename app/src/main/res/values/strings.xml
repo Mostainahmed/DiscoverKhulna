@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Discover Khulna</string>
+    <string name="app_header">খুলনাকে জানুন</string>
+    <string name="title_places">Tourist Places</string>
+    <string name="title_police">Police Station</string>
+    <string name="title_hospital">Hospital</string>
+    <string name="title_fireservice">Fire Service</string>
+    <string name="title_about_us">Other Important Links</string>
+    <string name="title_hospital_list">Hospitals List and Contacts</string>
+    <string name="title_police_station_list">Police Station\'s List and Contact</string>
+    <string name="title_fire_service_list">Fire Service\'s List and Contact</string>
+    <string name="title_places_list">Tourist\'s Places</string>
+    <string name="title_hotel">Hotels</string>
+    <string name="title_place_description">Description</string>
+    <string name="title_how_to_go">How to go:</string>
+    <string name="title_images_places">Images:</string>
+    <string name="title_google_map">Google Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_hotel_details">Hotels</string>
+    <string name="title_head">Discover Khulna</string>
+    <string name="title_website_list">Website List</string>
+    <string name="title_banks">Banks</string>
+    <string name="title_bank_list">List of Banks and details</string>
+    <string name="title_price">Price</string>
+    <string name="title_location_hotel">Location</string>
+    <string name="title_number">Number</string>
+    <string name="desc_hotel_castle_salam">Hotel Castle Salam features air-conditioned rooms in Khulna. Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free Wi-Fi. The hotel provides an outdoor swimming pool, fitness Centre and an ATM.\n" +
+                                "\n" +
+                                "All units at the hotel are equipped with a seating area. At Hotel Castle Salam each room includes a desk, a flat-screen TV and a private bathroom.\n" +
+                                "\n" +
+                                "A continental breakfast is available daily at the accommodation.\n" +
+                                "\n" +
+                                "You can play billiards and table tennis at Hotel Castle Salam, and car hire is available.</string>
+    <string name="title_transportation">Transportation</string>
+    <string name="title_tour_operators">Tour Operators</string>
+    <string name="title_security_services">Security Services</string>
+    <string name="title_rab">RAB</string>
+    <string name="title_coast_guard">Coast Guard</string>
+    <string name="title_forest_defence">Forest Defence</string>
+    <string name="title_bus">Bus</string>
+    <string name="title_aeroplane">Aeroplane</string>
+    <string name="title_train">Train</string>
+    <string name="title_launch">Launch</string>
+    <string name="title_private_banks">Private Banks</string>
+    <string name="title_government_banks">Government Banks</string>
+    <string name="title_bangla_name">ডিসকভার খুলনা</string>
+</resources>

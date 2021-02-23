@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".website.WebActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/rel_title"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/back_btn" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginEnd="116dp"
+            android:layout_toEndOf="@+id/img_back"
+            android:text="www.khulna.gov.bd"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            tools:ignore="SpUsage" />
+    </RelativeLayout>
+    <WebView
+        android:layout_below="@+id/rel_title"
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"/>
+    <com.agrawalsuneet.squareloaderspack.loaders.SquareGridLoader
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:squaregrid_animDelay="80"
+        app:squaregrid_animDuration="400"
+        app:squaregrid_interpolator="@android:interpolator/linear"
+        app:squaregrid_sqaureColor="@color/colorPrimary"
+        app:squaregrid_squareCount="5"
+        app:squaregrid_squareLength="24dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrgs!!! No Internet Connection!!!"
+        android:id="@+id/problemText"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+
+</RelativeLayout>
